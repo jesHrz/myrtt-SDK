@@ -1,0 +1,1 @@
+XUOS Applications SDK
