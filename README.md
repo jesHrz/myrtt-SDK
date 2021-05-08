@@ -26,3 +26,9 @@ Prompt: Using system call layer
 We use Makefile to build applications. Specificed dependency rules is defined in `SDK/Makefile.common`. You can include this file in your own `Makefile` and assign the source file that should be compiled and the target file that should be built. The target file should use `.mo` as extension. 
 
 You can get more information through example Makefiles.
+
+### How to run
+
+The application is RT-Thread's dlmodule. It should be stored in file system and run in MSH.
+
+For example, if there was one application called `app.mo` and it was stored in path `/hello/world`, you should type `/hello/world/app.mo` in MSH then press Enter key to run it.
